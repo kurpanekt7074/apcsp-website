@@ -11,7 +11,7 @@ int main() {
    printf("\nEnter the Width of Pyramid : ");
    scanf("%f", &width);
 
-   printf("\nEnter the Width of Pyramid : ");
+   printf("\nEnter the height of Pyramid : ");
    scanf("%f", &height);
  
  
