@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<math.h>
  
@@ -21,13 +22,21 @@ int main() {
    scanf("%f", &height);
    }
    }
-     
-   area = length * width * height / 3;
+
+    for (int i = 1; i <=2; i++)
+    {
+    
+    if (i==1)
+    {
+      area = length * width * height / 3;
+    }
+   
+    if (i==2) 
+    {
    printf("\nVolume of Pyramid : %f\n", area);
- 
+    }
+    }
    return (0);
 }
-
-
 
 
